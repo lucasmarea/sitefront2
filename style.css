@@ -16,5 +16,49 @@ body{
     padding-top: 30px;
     box-shadow:  0px 0px  130px -2px hsl(227, 10%, 46%);
     font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
+}
+
+.card .img{
+    width: 430px;
+    height: 361px;
+    margin-left: -70px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card .img2{
+    width: 430px;
+    height: 361px;
+    margin-left: -70px;
+    margin-top: 70px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card .img3{
+    width: 430px;
+    height: 361px;
+    margin-left: -70px;
+    margin-top: 200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card .text{
+    text-align: center;
+    width: 200px;
+    display: grid;
+}
+
+.card .text h1{
+    text-align: center;
+    width: 300px;
+    font-size: 50px;
+    margin-left: -40px;
+    text-transform: uppercase;
 }
