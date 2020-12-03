@@ -1,7 +1,8 @@
 body{
-    background-image: linear-gradient(to left , hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-image: linear-gradient(to bottom , hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
     width: 1440px;
+    overflow: hidden;
     
 }
 
@@ -9,12 +10,13 @@ body{
     background-color: white;
     width: 923px;
     height: 512px;
-    margin: 200px auto;
+   margin: 140px 340px auto;
+   
     border-radius: 20px;
     text-align: left;
     justify-self: center;
-    padding-top: 30px;
-    box-shadow:  0px 0px  130px -2px hsl(227, 10%, 46%);
+   
+    box-shadow:  30px 10px  130px -2px hsl(229, 11%, 36%);
     font-size: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,41 +26,37 @@ body{
 .card .img{
     width: 430px;
     height: 361px;
-    margin-left: -70px;
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-left: -90px;
+    margin-top: 200px;
+    position: absolute;
+   
+    grid-template-columns: 1fr 1fr ;
 }
 
 .card .img2{
     width: 430px;
     height: 361px;
-    margin-left: -70px;
+    margin-left: -90px;
     margin-top: 70px;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.card .img3{
-    width: 430px;
-    height: 361px;
-    margin-left: -70px;
-    margin-top: 200px;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+
 .card .text{
-    text-align: center;
-    width: 200px;
+    text-align: justify;
+    width: 400px;
     display: grid;
+    font-weight: 300;
 }
 
 .card .text h1{
     text-align: center;
     width: 300px;
+   
     font-size: 50px;
-    margin-left: -40px;
+    margin-left: -90px;
     text-transform: uppercase;
+    
 }
