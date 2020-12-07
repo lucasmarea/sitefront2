@@ -1,0 +1,6 @@
+.menu li ul{
+    display:none;
+}
+.menu li:focus ul{
+    display:block;
+}
