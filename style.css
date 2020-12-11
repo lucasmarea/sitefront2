@@ -21,6 +21,7 @@ body{
    
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow: hidden;
     
 }
 
@@ -30,7 +31,7 @@ body{
     margin-left: -90px;
     margin-top: 200px;
     position: absolute;
-   
+  
     grid-template-columns: 1fr 1fr ;
 }
 
@@ -46,7 +47,7 @@ body{
 }
 
 
-.card .text{
+.card p{
     text-align: justify;
     width: 400px;
     display: grid;
@@ -60,4 +61,4 @@ body{
     font-size: 50px;
     margin-left: -90px;
     text-transform: uppercase;
-    
+} 
