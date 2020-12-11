@@ -11,14 +11,14 @@ body{
     background-color: white;
     width: 923px;
     height: 512px;
-   margin: 140px 340px auto;
+   margin: 140px 170px 140px auto;
    
     border-radius: 20px;
     text-align: left;
     justify-self: center;
    
-    box-shadow:  30px 10px  70px -2px hsl(229, 11%, 36%);
-   
+    box-shadow:  5px 10px  70px -2px hsl(233, 11%, 57%);
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
@@ -54,11 +54,18 @@ body{
     font-weight: 300;
 }
 
-.card .text h1{
+.text {
     text-align: center;
-    width: 300px;
-   
-    font-size: 50px;
-    margin-left: -90px;
-    text-transform: uppercase;
+    width:450px;
+ margin-left: 420px;
+ margin-top: -300px;
+    font-size: 11px;
+    
 } 
+
+.title{
+    margin-left: -420px;
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+}
