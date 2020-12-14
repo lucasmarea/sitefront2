@@ -52,9 +52,12 @@ body{
     width: 400px;
     display: grid;
     font-weight: 300;
+    font-size: 11px;
 }
 
 .text {
+    background-image: url(./images/favicon-32x32.png);
+    background: no-repeat;
     text-align: center;
     width:350px;
  margin-left: 520px;
