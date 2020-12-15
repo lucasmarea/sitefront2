@@ -55,20 +55,3 @@ body{
     font-size: 11px;
 }
 
-.text {
-    background-image: url(./images/favicon-32x32.png);
-    background: no-repeat;
-    text-align: center;
-    width:350px;
- margin-left: 520px;
- margin-top: -300px;
-    font-size: 11px;
-    
-} 
-
-.title{
-    margin-left: -420px;
-    margin-top: 60px;
-    font-size: 40px;
-    font-weight: 700;
-}
