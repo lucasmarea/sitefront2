@@ -38,7 +38,7 @@ body{
 .card .img2{
     width: 430px;
     height: 361px;
-    margin-left: -90px;
+    margin-left: -550px;
     margin-top: 70px;
     position: relative;
     display: grid;
@@ -46,16 +46,26 @@ body{
     background-size: cover;
 }
 
+.card .img3{
+   
+    
+    width: 430px;
+  height: 361px;
+   margin-left: -580px;
+   margin-top:-300px ;
+   position: relative;
 
+}
 
 nav{
   width:350px;
   height: auto;
-  margin: 100px -20px auto;
+  margin: 130px 480px auto;
+  position: absolute;
 }
 
 nav h1{
-    margin-top: -40px;
+    margin-top: -50px;
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 700;
@@ -63,16 +73,16 @@ nav h1{
 
 .item label{
     display: block;
-    padding: 5px;
+    padding: -50px;
     font-size: 12px;
    
     cursor: pointer;
-    border-bottom: solid 1px rgb(219, 219, 219);;
+    border-bottom: solid 1px rgb(219, 219, 219);
     font-weight: 300;
 }
 
 .item label img{
-    margin-left:320px;
+    margin-left:330px;
 
 }
 
@@ -95,9 +105,9 @@ nav h1{
 .item ul li a{
     width: 100%;
     height: 20px;
-    padding:10px;
+    padding:6px;
     display: block;
-    margin-left: -50px;
+    margin-left: -45px;
     text-decoration: none;
     color: rgb(160, 150, 150);
     
@@ -106,14 +116,17 @@ nav h1{
 
 
 .item input:checked ~ ul{
-    height: auto;
-    max-height: 200px;
+    max-height: 100px;
     transform: all;
-    
+    border-bottom: solid 1px rgb(219, 219, 219);
+    width:300px;
 }
 
 .item input:checked ~ label{
     font-weight: 700;
+    border-bottom: none; 
+   
+   
 
 }
 .item input:checked ~ label img{
