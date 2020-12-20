@@ -128,18 +128,14 @@ nav h1{
 .item input:checked ~ label{
     font-weight: 700;
     border-bottom: none; 
-    cursor: pointer;
 
 
-
+}
+.item label:target p{
+    display: none;
 
 }
 .item input:checked ~ label img{
  
         transform: rotate(180deg);
       }
-
-      [id^=item] input:checked ~ label {
-        height: 100px;
-    }
-    /*ARRUMAR RADIO SUBSTITUIR CHECKBOX/*
