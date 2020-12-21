@@ -123,12 +123,14 @@ nav h1{
     border-bottom: solid 1px rgb(219, 219, 219);
     width:300px;
     height: 50px;
+    
 }
+
 
 .item input:checked ~ label{
     font-weight: 700;
     border-bottom: none; 
-    cursor: pointer;
+ 
 
 
 
@@ -139,7 +141,8 @@ nav h1{
         transform: rotate(180deg);
       }
 
-      [id^=item] input:checked ~ label {
+      [id^=radio1]:checked ~ .item {
         height: 100px;
-    }
+    }   
+    
     /*ARRUMAR RADIO SUBSTITUIR CHECKBOX/*
