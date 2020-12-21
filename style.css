@@ -58,91 +58,51 @@ body{
 
 }
 
-nav{
+.accordions{
   width:350px;
-  height: auto;
-  margin: 130px 480px auto;
-  position: absolute;
-}
-
-nav h1{
-    margin-top: -50px;
-    text-transform: uppercase;
-    font-size: 36px;
-    font-weight: 700;
+  margin-top: -350px;
+  
 }
 
 
-.item label{
-    display: block;
+.accordion-item input{
+    display: none;
     
+}
+
+
+.accordion-item label{
+    display: block;
+
     font-size: 12px;
-   
+  background: white;
     cursor: pointer;
     border-bottom: solid 1px rgb(219, 219, 219);
     font-weight: 300;
+    padding: 5px 3px;
 }
-
-.item label img{
-    margin-left:330px;
+.accordion-item label img{
+    margin-left: 330px;
 
 }
-
-
-
-.item ul {
-    width: 100%;
-    list-style: none;
+.accordion-content{
+    height: 0px;
     overflow: hidden;
-    max-height: 0;
-    transition: all 0.4s linear;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition:height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+}
+
+accordion-item:checked ~ label {
+font-weight: 700;
+
 
 }
 
-.item input{
-    display: none;
-
-}
-
-.item ul li a{
-    width: 350px;
-    height: 20px;
-    padding:6px;
-    display: block;
-    margin-left: -45px;
-    text-decoration: none;
-    color: rgb(160, 150, 150);
-    
-}
-
-
-
-.item input:checked ~ ul{
-    max-height: 100px;
-    transform: all;
-    border-bottom: solid 1px rgb(219, 219, 219);
-    width:300px;
-    height: 50px;
-    
-}
-
-
-.item input:checked ~ label{
-    font-weight: 700;
-    border-bottom: none; 
- 
-
-
-
-
-}
-.item input:checked ~ label img{
- 
-        transform: rotate(180deg);
-      }
-
-      [id^=radio1]:checked ~ .item {
+  [id^=accordion]:checked ~ .accordion-content {
         height: 100px;
     }   
     
-    /*ARRUMAR RADIO SUBSTITUIR CHECKBOX/*
+    /*ARRUMAR posição.. img rotacionar... fonte weight após clicado
