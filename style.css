@@ -65,9 +65,11 @@ body{
   
 }
 
-.accordions h1{
+.card .accordions h1{
     font-weight: 700px;
+    font-size: 30px;
     font-family: 'Kumbh Sans', sans-serif;
+    text-transform: uppercase;
    
 }
 
@@ -77,6 +79,12 @@ body{
     
 }
 
+.accordion-content{
+    padding: -80px;
+    margin: 0 auto;
+    height: -80px;
+   
+}
 
 .accordion-item label{
     display: block;
@@ -92,6 +100,11 @@ body{
 .accordion-item label:hover{
     color: rgb(255, 123, 0);
 
+}
+
+.accordion-item label img :hover{
+    margin-left: 300px;
+    cursor: pointer;
 }
 .accordion-item label img{
     margin-left: 330px;
