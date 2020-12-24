@@ -19,3 +19,5 @@
 [1215/222605.753:ERROR:exception_snapshot_win.cc(99)] thread ID 3044 not found in process
 [1215/222605.784:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
 [1215/222605.784:ERROR:exception_snapshot_win.cc(99)] thread ID 7492 not found in process
+[1223/171931.131:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1224/171212.349:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

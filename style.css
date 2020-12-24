@@ -5,25 +5,20 @@ body{
     overflow: hidden;
     font-size: 12px; text-align: center;
     margin: 0 auto;
-    
 }
 
 .card {
     background-color: white;
     width: 923px;
     height: 512px;
-   margin: 140px 170px 140px auto;
-   
+    margin: 140px 170px 140px auto;
     border-radius: 20px;
     text-align: left;
     justify-self: center;
-   
     box-shadow:  5px 10px  70px -2px hsl(233, 11%, 57%);
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
-    
 }
 
 .card .img55{
@@ -32,8 +27,13 @@ body{
     margin-left: -90px;
     margin-top: 200px;
     position: absolute;
-  
+    cursor: pointer;
     grid-template-columns: 1fr 1fr ;
+}
+
+
+.card .img55:hover{
+    margin-left: -120px;
 }
 
 .card .img2{
@@ -48,75 +48,57 @@ body{
 }
 
 .card .img3{
-   
-    
     width: 430px;
-  height: 361px;
-   margin-left: -580px;
-   margin-top:-300px ;
-   position: relative;
-
+    height: 361px;
+    margin-left: -580px;
+    margin-top:-300px ;
+    position: relative;
 }
 
 .accordions{
-  width:-50px;
+  width:-80px;
   margin-top: -400px;
   margin-left: 500px;
-  
+  height: 20px;
+  padding: 20px;
 }
 
 .card .accordions h1{
     font-weight: 700px;
+    padding-top: -70px;
     font-size: 30px;
     font-family: 'Kumbh Sans', sans-serif;
     text-transform: uppercase;
-   
 }
-
 
 .accordion-item input{
     display: none;
-    
-}
-
-.accordion-content{
-    padding: -80px;
-    margin: 0 auto;
-    height: -80px;
-   
 }
 
 .accordion-item label{
     display: block;
-
-    font-size: 12px;
-  background: white;
+    font-size: 14px;
+    background: white;
     cursor: pointer;
     border-bottom: solid 1px rgb(233, 232, 232);
     font-weight: 300;
-    padding: 5px 3px;
+    padding: 7px;
+    margin-left: -7px;
 }
 
 .accordion-item label:hover{
     color: rgb(255, 123, 0);
-
 }
 
-.accordion-item label img :hover{
-    margin-left: 300px;
-    cursor: pointer;
-}
 .accordion-item label img{
     margin-left: 330px;
+}
+
+.accordion-item label.card {
+    margin-left: -130px;
 
 }
 
-.card:checked img5 {
-    margin-left: -30px;
-   
-    
-
-}
 .accordion-content{
     height: 0px;
     overflow: hidden;
@@ -125,21 +107,25 @@ body{
     -o-transition: height 0.3s ease-in-out;
     -ms-transition:height 0.3s ease-in-out;
     transition: height 0.3s ease-in-out;
+    padding: -80px;
+    margin: 0 auto;
+    height: -80px;  
 }
 
 .accordion-item input:checked ~ label {
-font-weight: 700;
-font-size: 12px;
-border: none;
-margin: 0 auto;
-padding: -4550px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    margin: 0 auto;
+    margin-left: -7px;
 }
 
 .accordion-item input:checked ~ .accordion-content {
-    border-bottom: 1px solid gray;
-    padding: -20px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    margin: 0 auto;
+    height: 40px;
+    color: rgb(126, 126, 126);
 }
-
 
 
 .accordion-item input:checked ~ label img{
@@ -150,9 +136,11 @@ padding: -4550px;
 .accordion-item input:target p{
     display: none;
 }
-  [id^=accordion]:checked ~ .accordion-content {
-        height: 100px;
+
+[id^=accordion]:checked ~ .accordion-content {
+    height: 100px;
+    overflow: hidden;
+}   
+
     
-    }   
-    
-    /*ARRUMAR posição.. img rotacionar... fonte weight após clicado
+    /*ARRUMAR Box que tem que ir para o lado quando passar o mouse em cima do titulo
