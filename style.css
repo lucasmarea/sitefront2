@@ -88,7 +88,6 @@ body{
     padding: 2px;
     margin-left: -16px;
     margin-top: 20px;
-   
 }
 
 .accordion-item label:hover{
@@ -100,10 +99,7 @@ body{
     padding: 0;
 }
 
-.accordion-item label.card {
-    margin-left: -130px;
 
-}
 
 .accordion-content{
     height: 0px;
