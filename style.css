@@ -11,7 +11,7 @@ body{
     background-color: white;
     width: 923px;
     height: 512px;
-    margin: 140px 170px 140px auto;
+    margin: 150px 230px 140px auto;
     border-radius: 20px;
     text-align: left;
     justify-self: center;
@@ -40,7 +40,7 @@ body{
 .card .img2{
     width: 430px;
     height: 361px;
-    margin-left: -900px;
+    margin-left: -920px;
     margin-top: 70px;
     position: relative;
     display: grid;
@@ -85,9 +85,12 @@ body{
     cursor: pointer;
     border-bottom: solid 1px rgb(233, 232, 232);
     font-weight: 300;
-    padding: 2px;
+    padding: 10px;
+    width: 350px;
     margin-left: -16px;
     margin-top: 20px;
+    display: grid;
+    grid-template-columns:  5fr 1fr;
 }
 
 .accordion-item label:hover{
@@ -95,8 +98,12 @@ body{
 }
 
 .accordion-item label img{
-    margin-left: 330px;
+
     padding: 0;
+    display: grid;
+    grid-template-columns:  1fr ;
+    margin-left: 70px;
+   
 }
 
 
@@ -130,6 +137,7 @@ body{
     color: rgb(126, 126, 126);
     margin-left: -15px;
     transition: 0.2s;
+    width: 360px;
 }
 
 .accordion-item input:checked ~ label img{
